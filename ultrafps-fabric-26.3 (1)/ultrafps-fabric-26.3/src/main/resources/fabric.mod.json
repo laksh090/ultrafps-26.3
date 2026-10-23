@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "ultrafps",
+  "version": "${version}",
+  "name": "UltraFPS Boost (26.3)",
+  "description": "Ultra-lightweight client-side FPS optimizer for Minecraft 26.3 (Wilderness Bound). Features smart entity occlusion & distance culling, block-entity frustum culling, particle rate limiting (including 26.3 Poplar leaves), adaptive weather/fog culling, and unfocused SDL window FPS throttling.",
+  "authors": [
+    "UltraFPS"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ultrafps.client.UltraFpsClientMod"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "ultrafps.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

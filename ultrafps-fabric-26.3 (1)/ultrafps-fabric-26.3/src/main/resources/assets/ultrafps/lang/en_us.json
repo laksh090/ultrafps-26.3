@@ -1,0 +1,6 @@
+{
+  "key.category.ultrafps.general": "UltraFPS Boost (26.3)",
+  "key.ultrafps.cycle_preset": "Cycle Optimization Preset (Balanced / Ultra / Competitive / Off)",
+  "key.ultrafps.toggle_occlusion": "Toggle Entity Raycast Occlusion Culling",
+  "key.ultrafps.show_stats": "Show Real-Time Culling Telemetry"
+}
